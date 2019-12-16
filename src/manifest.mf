@@ -1,0 +1,2 @@
+Main-Class: jp.rk.decopy.Decopy
+

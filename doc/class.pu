@@ -1,0 +1,46 @@
+@startuml Decopy
+
+abstract class Content {
+    --
+    {abstract} getColumns
+    {abstract} getRows
+    {abstract} getRowText
+    output
+}
+
+class TextContent extends Content {
+    text
+    --
+    getColumns
+    getRows
+    getRowText
+}
+
+abstract class Border extends Content {
+    content
+}
+
+class LeftBorder extends Border {
+    --
+    getColumns
+    getRows
+    getRowText
+}
+
+class UpDownBorder extends Border {
+    --
+    getColumns
+    getRows
+    getRowText
+}
+
+class ClipboardController {
+    --
+    {static} pull
+    {static} push
+}
+
+Content --o Border 
+Content -left..> ClipboardController : <<use>>
+
+@enduml
