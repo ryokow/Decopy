@@ -16,19 +16,8 @@ public class BracketsBorder extends Border {
     }
 
     public String getRowText(int row) {
-        String rightsideBorderStr = getRightsideBorderStr(this.borderStr); //default
-
-        if (content.getRows() <= 1) {
-            return this.borderStr + content.getRowText(0) + rightsideBorderStr;
-        }
-
-        if (row == 0) {
-            return this.borderStr + content.getRowText(row);
-        } else if (row == content.getRows() - 1) {
-            return " " + content.getRowText(row) + rightsideBorderStr;
-        } else {
-            return " " + content.getRowText(row);
-        }
+        String rightsideBorderStr = getRightsideBorderStr(this.borderStr);
+        return this.borderStr + content.getRowText(row) + rightsideBorderStr;
     }
 
     private String getRightsideBorderStr(String leftsideBorderStr){
