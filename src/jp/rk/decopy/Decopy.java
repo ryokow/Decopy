@@ -58,6 +58,9 @@ class Decopy {
             case Full:
                 content = new FullBorder(new TextContent(ClipboardController.pull()), decoStr);
                 break;
+            case right:
+                content = new RightBorder(new TextContent(ClipboardController.pull()), decoStr);
+                break;
             case Left:
             default:
                 content = new LeftBorder(new TextContent(ClipboardController.pull()), decoStr);
