@@ -7,5 +7,6 @@ enum Placement {
     LeftRight,
     Brackets,
     Full,
-    right
+    Right,
+    Under
 }
