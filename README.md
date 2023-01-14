@@ -30,6 +30,7 @@ java -jar Decopy.jar -p:UpDown -c:=
 - Brackets      : 括弧（左右）  
 - Full          : 全囲（上下左右）
 - Right         : 右
+- Under         : 下
 
 ※指定なしの場合はLeft  
 ※Fullは文字幅のばらつきにより囲いがずれることが多い
