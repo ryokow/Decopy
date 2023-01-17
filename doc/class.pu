@@ -1,46 +1,93 @@
 @startuml Decopy
 
-abstract class Content {
-    --
-    {abstract} getColumns
-    {abstract} getRows
-    {abstract} getRowText
-    output
-}
+package Decopy{
+    Package Content {
+        ' class ContentManager {}
+        ' Decoratorパターン ここから ---
+        abstract class Content {
+            --
+            + {abstract} getColumns
+            + {abstract} getRows
+            + {abstract} getRowText
+        }
 
-class TextContent extends Content {
-    text
-    --
-    getColumns
-    getRows
-    getRowText
-}
+        class TextContent extends Content {
+            - text
+            --
+            + getColumns
+            + getRows
+            + getRowText
+        }
 
-abstract class Border extends Content {
-    content
-}
+        abstract class Border extends Content {
+            # content
+        }
 
-class LeftBorder extends Border {
-    --
-    getColumns
-    getRows
-    getRowText
-}
+        class LeftBorder extends Border {
+            --
+            + getColumns
+            + getRows
+            + getRowText
+        }
 
-class UpDownBorder extends Border {
-    --
-    getColumns
-    getRows
-    getRowText
-}
+        class UpDownBorder extends Border {
+            --
+            + getColumns
+            + getRows
+            + getRowText
+        }
+        ' Decoratorパターン ここまで---
+    }
 
-class ClipboardController {
-    --
-    {static} pull
-    {static} push
+    package UI {
+        class DecopyInputController {
+            --
+            + displayDecopyInputFrame
+            + getDecopyInput
+        }
+
+        class DecopyInputFrame extends Frame{
+            - labelOfPlacement
+            - labelOfCharacter
+            - choiceOfPlacement
+            - textBoxOfCharacter
+            --
+            + getDecoStr
+            + getPlacement
+        }
+
+        class DecopyInput{
+        - placement
+        - decoString
+        --
+        + setter
+        + getter
+        }
+    }
+
+    package util {
+        class ClipboardController {
+        --
+        + {static} pull
+        + {static} push
+        }
+    }
+
+    class Decopy {
+        --
+        - {static} isPlacement
+        - {static} createContet
+        - {static} output
+        - {static} usage
+    }
 }
 
 Content --o Border 
-Content -left..> ClipboardController : <<use>>
+Decopy -up..> ClipboardController
+Decopy -right..> Content
+Decopy -down..> DecopyInputController
+DecopyInputController -right..> DecopyInputFrame
+DecopyInputController -left..> DecopyInput
+
 
 @enduml
