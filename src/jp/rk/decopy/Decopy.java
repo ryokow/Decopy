@@ -85,7 +85,7 @@ class Decopy {
             str.add(content.getRowText(i));
         }
 
-        ClipboardController.push(String.join("\n", str))
+        ClipboardController.push(String.join("\n", str));
     }
 
     private static void usage() {
