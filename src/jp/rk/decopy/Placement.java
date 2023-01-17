@@ -1,6 +1,6 @@
 package jp.rk.decopy;
 
-enum Placement {
+public enum Placement {
     Left,
     UpDown,
     Up,

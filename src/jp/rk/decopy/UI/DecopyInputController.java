@@ -1,4 +1,4 @@
-package jp.rk.decopy;
+package jp.rk.decopy.UI;
 
 public class DecopyInputController {
 	private DecopyInputController(){}

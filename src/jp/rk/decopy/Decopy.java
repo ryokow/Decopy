@@ -1,16 +1,18 @@
 package jp.rk.decopy;
 
+import java.util.ArrayList;
 import jp.rk.decopy.util.ClipboardController;
+import jp.rk.decopy.UI.*;
 import jp.rk.decopy.content.*;
 
 class Decopy {
     public static void main(String[] args) {
         // String decoStr = ">";
         // Placement placement = Placement.Left;
-        DecoInfo decoInfo = new DecoInfo();
+        DecopyInput decopyInput = new DecopyInput();
 
         if (args.length == 0) {
-            //GUIから情報を取得しdecoInfoにset
+            //GUIから情報を取得しdecopyInputにset
         }
         else if (args.length != 0) {
 
@@ -18,10 +20,10 @@ class Decopy {
                 String[] param = string.split(":");
                 if (param[0].equals("-p")) {
                     if (isPlacement(param[1])) {
-                        decoInfo.setPlacement(Placement.valueOf(param[1]));
+                        decopyInput.setPlacement(Placement.valueOf(param[1]));
                     }
                 } else if (param[0].equals("-c")) {
-                    decoInfo.setDecoStr(param[1]);
+                    decopyInput.setDecoStr(param[1]);
                 } else {
                     System.out.println("An argument is not valid.");
                     usage();
@@ -30,7 +32,7 @@ class Decopy {
             }
         }
 
-        creatContent(decoInfo).output();
+        output(creatContent(decopyInput));
     }
 
     private static boolean isPlacement(String str) {
@@ -44,37 +46,46 @@ class Decopy {
         return false;
     }
 
-    private static Content creatContent(DecoInfo decoInfo) {
+    private static Content creatContent(DecopyInput decopyInput) {
         Content content;
-        switch (decoInfo.getPlacement()) {
+        switch (decopyInput.getPlacement()) {
             case UpDown:
-                content = new UpDownBorder(new TextContent(ClipboardController.pull()), decoInfo.getDecoStr());
+                content = new UpDownBorder(new TextContent(ClipboardController.pull()), decopyInput.getDecoStr());
                 break;
             case Up:
-                content = new UpBorder(new TextContent(ClipboardController.pull()), decoInfo.getDecoStr());
+                content = new UpBorder(new TextContent(ClipboardController.pull()), decopyInput.getDecoStr());
                 break;
             case LeftRight:
-                content = new LeftRightBorder(new TextContent(ClipboardController.pull()), decoInfo.getDecoStr());
+                content = new LeftRightBorder(new TextContent(ClipboardController.pull()), decopyInput.getDecoStr());
                 break;
             case Brackets:
-                content = new BracketsBorder(new TextContent(ClipboardController.pull()), decoInfo.getDecoStr());
+                content = new BracketsBorder(new TextContent(ClipboardController.pull()), decopyInput.getDecoStr());
                 break;
             case Full:
-                content = new FullBorder(new TextContent(ClipboardController.pull()), decoInfo.getDecoStr());
+                content = new FullBorder(new TextContent(ClipboardController.pull()), decopyInput.getDecoStr());
                 break;
             case Right:
-                content = new RightBorder(new TextContent(ClipboardController.pull()), decoInfo.getDecoStr());
+                content = new RightBorder(new TextContent(ClipboardController.pull()), decopyInput.getDecoStr());
                 break;
             case Under:
-                content = new UnderBorder(new TextContent(ClipboardController.pull()), decoInfo.getDecoStr());
+                content = new UnderBorder(new TextContent(ClipboardController.pull()), decopyInput.getDecoStr());
                 break;
             case Left:
             default:
-                content = new LeftBorder(new TextContent(ClipboardController.pull()), decoInfo.getDecoStr());
+                content = new LeftBorder(new TextContent(ClipboardController.pull()), decopyInput.getDecoStr());
                 break;
         }
 
         return content;
+    }
+
+    private static void output(Content content) {
+        ArrayList<String> str = new ArrayList<String>();
+        for (int i = 0; i < content.getRows(); i++) {
+            str.add(content.getRowText(i));
+        }
+
+        ClipboardController.push(String.join("\n", str))
     }
 
     private static void usage() {
