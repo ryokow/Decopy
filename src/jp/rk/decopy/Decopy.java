@@ -8,10 +8,10 @@ import jp.rk.decopy.UI.*;
 import jp.rk.decopy.content.*;
 
 class Decopy implements ActionListener{
-    static DecopyInputFrame _frame;
-    static DecopyInput _decopyInput;
+    DecopyInputFrame _frame;
+    DecopyInput _decopyInput;
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         // String decoStr = ">";
         // Placement placement = Placement.Left;
 	    _decopyInput = new DecopyInput();
@@ -21,7 +21,9 @@ class Decopy implements ActionListener{
             _frame = new DecopyInputFrame();
             _frame.setSize(400, 500);
             _frame.setTitle("Decopy");
+            _frame.setActionListener(this);
             _frame.setVisible(true);
+
         }
         else if (args.length != 0) {
 
@@ -44,7 +46,7 @@ class Decopy implements ActionListener{
         // output(creatContent(decopyInput));
     }
 
-    private static boolean isPlacement(String str) {
+    private boolean isPlacement(String str) {
         Placement[] placements = Placement.values();
         for (Placement placement : placements) {
             if (str.equals(placement.name())) {
@@ -55,7 +57,7 @@ class Decopy implements ActionListener{
         return false;
     }
 
-    private static Content creatContent(DecopyInput decopyInput) {
+    private Content creatContent(DecopyInput decopyInput) {
         Content content;
         switch (decopyInput.getPlacement()) {
             case UpDown:
@@ -88,7 +90,7 @@ class Decopy implements ActionListener{
         return content;
     }
 
-    private static void output(Content content) {
+    private void output(Content content) {
         ArrayList<String> str = new ArrayList<String>();
         for (int i = 0; i < content.getRows(); i++) {
             str.add(content.getRowText(i));
@@ -108,7 +110,7 @@ class Decopy implements ActionListener{
             }
     }
 
-    private static void usage() {
+    private void usage() {
         System.out.println("Usage: java Decopy");
         System.out.println("Usage: java Decopy -p:UpDown -c:-");
         System.out.println("Usage: java Decopy -p:Brackets -c:\\(");
