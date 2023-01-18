@@ -1,5 +1,6 @@
 @startuml Decopy
 
+' クラス定義
 package Decopy{
     Package Content {
         ' class ContentManager {}
@@ -40,20 +41,21 @@ package Decopy{
     }
 
     package UI {
-        class DecopyInputController {
+        class DecopyInputController implements ActionListener{
+            - decopyInput
             --
             + displayDecopyInputFrame
             + getDecopyInput
+            + actionPerformed
         }
 
         class DecopyInputFrame extends Frame{
-            - labelOfPlacement
-            - labelOfCharacter
             - choiceOfPlacement
-            - textBoxOfCharacter
+            - textFieldOfCharacter
             --
             + getDecoStr
             + getPlacement
+            + setActionListener
         }
 
         class DecopyInput{
@@ -82,12 +84,14 @@ package Decopy{
     }
 }
 
+' クラス間の関係
+left to right direction
 Content --o Border 
-Decopy -up..> ClipboardController
-Decopy -right..> Content
-Decopy -down..> DecopyInputController
-DecopyInputController -right..> DecopyInputFrame
-DecopyInputController -left..> DecopyInput
+Decopy ..> ClipboardController
+Decopy .right.> Content
+Decopy .up.> DecopyInputController
+DecopyInputController .left> DecopyInputFrame
+DecopyInputController --> DecopyInput
 
 
 @enduml
