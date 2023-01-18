@@ -8,10 +8,10 @@ import jp.rk.decopy.UI.*;
 import jp.rk.decopy.content.*;
 
 class Decopy implements ActionListener{
-    DecopyInputFrame _frame;
-    DecopyInput _decopyInput;
+    static DecopyInputFrame _frame;
+    static DecopyInput _decopyInput;
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         // String decoStr = ">";
         // Placement placement = Placement.Left;
 	    _decopyInput = new DecopyInput();
@@ -19,11 +19,10 @@ class Decopy implements ActionListener{
         if (args.length == 0) {
             //GUIから情報を取得しdecopyInputにset
             _frame = new DecopyInputFrame();
-            _frame.setSize(400, 500);
+            _frame.setSize(300, 300);
             _frame.setTitle("Decopy");
-            _frame.setActionListener(this);
+            _frame.setActionListener(new Decopy());
             _frame.setVisible(true);
-
         }
         else if (args.length != 0) {
 
@@ -46,7 +45,7 @@ class Decopy implements ActionListener{
         // output(creatContent(decopyInput));
     }
 
-    private boolean isPlacement(String str) {
+    private static boolean isPlacement(String str) {
         Placement[] placements = Placement.values();
         for (Placement placement : placements) {
             if (str.equals(placement.name())) {
@@ -105,12 +104,12 @@ class Decopy implements ActionListener{
                 _decopyInput.setPlacement(_frame.getPlacement());
                 _decopyInput.setDecoStr(_frame.getDecoStr());
                 output(creatContent(_decopyInput));
-            } else {
-                System.exit(0);
             }
+
+            System.exit(0);
     }
 
-    private void usage() {
+    private static void usage() {
         System.out.println("Usage: java Decopy");
         System.out.println("Usage: java Decopy -p:UpDown -c:-");
         System.out.println("Usage: java Decopy -p:Brackets -c:\\(");
