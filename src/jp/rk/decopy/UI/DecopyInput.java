@@ -8,6 +8,10 @@ public class DecopyInput {
 	public DecopyInput(){
 		_decoStr = ">";
 	}
+	public DecopyInput(Placement placement, String decoStr){
+		_placement = placement;
+		_decoStr = decoStr;
+	}
 
 	public Placement getPlacement(){
 		return _placement;

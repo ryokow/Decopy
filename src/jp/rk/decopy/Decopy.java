@@ -1,18 +1,27 @@
 package jp.rk.decopy;
 
+import java.awt.*;
+import java.awt.event.*;
 import java.util.ArrayList;
 import jp.rk.decopy.util.ClipboardController;
 import jp.rk.decopy.UI.*;
 import jp.rk.decopy.content.*;
 
-class Decopy {
+class Decopy implements ActionListener{
+    static DecopyInputFrame _frame;
+    static DecopyInput _decopyInput;
+
     public static void main(String[] args) {
         // String decoStr = ">";
         // Placement placement = Placement.Left;
-        DecopyInput decopyInput = new DecopyInput();
+	    _decopyInput = new DecopyInput();
 
         if (args.length == 0) {
             //GUIから情報を取得しdecopyInputにset
+            _frame = new DecopyInputFrame();
+            _frame.setSize(400, 500);
+            _frame.setTitle("Decopy");
+            _frame.setVisible(true);
         }
         else if (args.length != 0) {
 
@@ -20,10 +29,10 @@ class Decopy {
                 String[] param = string.split(":");
                 if (param[0].equals("-p")) {
                     if (isPlacement(param[1])) {
-                        decopyInput.setPlacement(Placement.valueOf(param[1]));
+                        _decopyInput.setPlacement(Placement.valueOf(param[1]));
                     }
                 } else if (param[0].equals("-c")) {
-                    decopyInput.setDecoStr(param[1]);
+                    _decopyInput.setDecoStr(param[1]);
                 } else {
                     System.out.println("An argument is not valid.");
                     usage();
@@ -32,7 +41,7 @@ class Decopy {
             }
         }
 
-        output(creatContent(decopyInput));
+        // output(creatContent(decopyInput));
     }
 
     private static boolean isPlacement(String str) {
@@ -86,6 +95,17 @@ class Decopy {
         }
 
         ClipboardController.push(String.join("\n", str));
+    }
+
+    public void actionPerformed(ActionEvent e) {
+            Button btn = (Button)e.getSource();
+            if (btn.getLabel().equals(ButtonID.OK.toString())) {
+                _decopyInput.setPlacement(_frame.getPlacement());
+                _decopyInput.setDecoStr(_frame.getDecoStr());
+                output(creatContent(_decopyInput));
+            } else {
+                System.exit(0);
+            }
     }
 
     private static void usage() {
