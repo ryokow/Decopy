@@ -16,7 +16,7 @@ activate d
 d -> dic: displayDecopyInputFrame
 activate dic
 deactivate d
-dic -> dif: DecopyInputFrame(self)
+dic -> dif: DecopyInputFrame
 activate dif
 u -> dif: input information
 dif -> dic: actionPerformed

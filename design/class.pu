@@ -55,7 +55,6 @@ package Decopy{
             - choiceOfPlacement
             - textFieldOfCharacter
             --
-            + DecopyInputFrame(DecopyInputController)
             + getDecopyInput
             + setActionListener
         }
@@ -77,13 +76,7 @@ package Decopy{
         }
     }
 
-    class Decopy {
-        --
-        ' - {static} isPlacement
-        ' - {static} createContet
-        ' - {static} output
-        - {static} usage
-    }
+    class Decopy {}
 }
 
 ' クラス間の関係
