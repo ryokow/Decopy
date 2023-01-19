@@ -3,14 +3,11 @@ package jp.rk.decopy.UI;
 import jp.rk.decopy.Placement;
 
 public class DecopyInput {
-	private Placement _placement = Placement.Left;
+	private Placement _placement;
 	private String _decoStr;
 	public DecopyInput(){
+		_placement = Placement.Left;
 		_decoStr = ">";
-	}
-	public DecopyInput(Placement placement, String decoStr){
-		_placement = placement;
-		_decoStr = decoStr;
 	}
 
 	public Placement getPlacement(){

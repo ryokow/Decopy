@@ -13,7 +13,7 @@ public class DecopyInputFrame extends Frame {
     private Button _OKButton;
     private Button _CancelButton;
     
-    public DecopyInputFrame(DecopyInputController controller){
+    public DecopyInputFrame(){
         super();
         this.setLayout(new GridLayout(3,1));
         Label labelOfPlacement = new Label("装飾位置");
@@ -34,7 +34,7 @@ public class DecopyInputFrame extends Frame {
         _CancelButton.setSize(50,25);
 
         Panel p1 = new Panel(new GridLayout(3,2));
-        Panel p2 = new Panel(new GridLayout(6,2));
+        Panel p2 = new Panel(new GridLayout(4,2));
         Panel p3 = new Panel(new GridLayout(2,2));
         
         p1.add(new Label(""));
@@ -45,14 +45,10 @@ public class DecopyInputFrame extends Frame {
         p1.add(new Label(""));
         p2.add(new Label(""));
         p2.add(new Label(""));
-        p2.add(new Label(""));
-        p2.add(new Label(""));
         p2.add(labelOfDecoStr);
         p2.add(_textField);
         p2.add(new Label(""));
-        p2.add(new Label(""));
-        p2.add(new Label(""));
-        p2.add(new Label(""));
+        p2.add(new Label("空白はdefault='>'"));
         p2.add(new Label(""));
         p2.add(new Label(""));
         p3.add(new Label(""));

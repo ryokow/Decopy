@@ -1,21 +1,18 @@
 package jp.rk.decopy;
 
 import jp.rk.decopy.UI.*;
-import jp.rk.decopy.content.Content;
-import jp.rk.decopy.content.ContentManager;
+import jp.rk.decopy.content.*;
 
 class Decopy {
 
     public static void main(String[] args) {
-        // String decoStr = ">";
-        // Placement placement = Placement.Left;
+
 	    DecopyInput decopyInput = new DecopyInput();
 
         if (args.length == 0) {
-
+        // 引数なしでGUI表示 
             DecopyInputController controller = new DecopyInputController();
-            controller.displayDecopyInputFrame();
-        
+            controller.displayDecopyInputFrame(); 
         }
         else if (args.length != 0) {
 
@@ -33,9 +30,9 @@ class Decopy {
                     return;
                 }
             }
+        
+            ContentManager.output(ContentManager.createContent(decopyInput));        
         }
-   
-        ContentManager.output(ContentManager.createContent(decopyInput));
     }
 
     private static boolean isPlacement(String str) {
@@ -45,7 +42,6 @@ class Decopy {
                 return true;
             }
         }
-
         return false;
     }
 

@@ -7,12 +7,10 @@ import java.awt.event.*;
 
 public class DecopyInputController implements ActionListener {
 
-    public DecopyInputController(){
-
-    }
+    public DecopyInputController(){}
 
     public void displayDecopyInputFrame(){
-        DecopyInputFrame frame = new DecopyInputFrame(this);
+        DecopyInputFrame frame = new DecopyInputFrame();
         frame.setSize(300, 300);
         frame.setLocationRelativeTo(null);
         frame.setTitle("Decopy");
