@@ -89,9 +89,10 @@ package Decopy{
 ' クラス間の関係
 left to right direction
 Decopy .> DecopyInputController
+Decopy .> ContentManager: <<use>>
 Content --o Border 
-ContentManager ..> ClipboardController
-DecopyInputController ..> ContentManager
+ContentManager ..> ClipboardController: <<use>>
+DecopyInputController ..> ContentManager: <<use>>
 ContentManager .> Content
 DecopyInputController .> DecopyInputFrame
 DecopyInputController .> DecopyInput

@@ -1,6 +1,8 @@
 package jp.rk.decopy;
 
 import jp.rk.decopy.UI.*;
+import jp.rk.decopy.content.Content;
+import jp.rk.decopy.content.ContentManager;
 
 class Decopy {
 
@@ -32,6 +34,8 @@ class Decopy {
                 }
             }
         }
+   
+        ContentManager.output(ContentManager.createContent(decopyInput));
     }
 
     private static boolean isPlacement(String str) {
