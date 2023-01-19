@@ -3,7 +3,11 @@
 ' クラス定義
 package Decopy{
     Package Content {
-        ' class ContentManager {}
+        class ContentManager {
+            --
+            + {static} createContent
+            + {static} output
+        }
         ' Decoratorパターン ここから ---
         abstract class Content {
             --
@@ -42,7 +46,7 @@ package Decopy{
 
     package UI {
         class DecopyInputController implements ActionListener{
-            - decopyInput
+            ' - decopyInput
             --
             + displayDecopyInputFrame
             + getDecopyInput
@@ -53,6 +57,7 @@ package Decopy{
             - choiceOfPlacement
             - textFieldOfCharacter
             --
+            + DecopyInputFrame(DecopyInputController)
             + getDecoStr
             + getPlacement
             + setActionListener
@@ -77,9 +82,9 @@ package Decopy{
 
     class Decopy {
         --
-        - {static} isPlacement
-        - {static} createContet
-        - {static} output
+        ' - {static} isPlacement
+        ' - {static} createContet
+        ' - {static} output
         - {static} usage
     }
 }
@@ -87,10 +92,12 @@ package Decopy{
 ' クラス間の関係
 left to right direction
 Content --o Border 
-Decopy ..> ClipboardController
-Decopy .right.> Content
-Decopy .up.> DecopyInputController
-DecopyInputController .left> DecopyInputFrame
+Decopy ..> ContentManager
+ContentManager ..> ClipboardController
+DecopyInputController .> ContentManager
+ContentManager .> Content
+Decopy .> DecopyInputController
+DecopyInputController .> DecopyInputFrame
 DecopyInputController --> DecopyInput
 
 

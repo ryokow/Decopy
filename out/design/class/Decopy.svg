@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="738px" preserveAspectRatio="none" style="width:1172px;height:738px;background:#FFFFFF;" version="1.1" viewBox="0 0 1172 738" width="1172px" zoomAndPan="magnify"><defs/><g><!--MD5=[48e99f26bdaad3ba0fdf422cd76d32c5]
+cluster Decopy--><g id="cluster_Decopy"><path d="M8.5,6 L61.5,6 A3.75,3.75 0 0 1 64,8.5 L71,29.6094 L1162.5,29.6094 A2.5,2.5 0 0 1 1165,32.1094 L1165,728.5 A2.5,2.5 0 0 1 1162.5,731 L8.5,731 A2.5,2.5 0 0 1 6,728.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="71" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="10" y="22.5332">Decopy</text></g><!--MD5=[e6da8715e0653b11acc3150f3f0fcc48]
+cluster Content--><g id="cluster_Content"><path d="M571.5,417 L628.5,417 A3.75,3.75 0 0 1 631,419.5 L638,440.6094 L1138.5,440.6094 A2.5,2.5 0 0 1 1141,443.1094 L1141,704.5 A2.5,2.5 0 0 1 1138.5,707 L571.5,707 A2.5,2.5 0 0 1 569,704.5 L569,419.5 A2.5,2.5 0 0 1 571.5,417 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="569" x2="638" y1="440.6094" y2="440.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="573" y="433.5332">Content</text></g><!--MD5=[9681dc6e01e10c6b4fe06895ae94f592]
+cluster UI--><g id="cluster_UI"><path d="M32.5,50 L47.5,50 A3.75,3.75 0 0 1 50,52.5 L57,73.6094 L723,73.6094 A2.5,2.5 0 0 1 725.5,76.1094 L725.5,390.5 A2.5,2.5 0 0 1 723,393 L32.5,393 A2.5,2.5 0 0 1 30,390.5 L30,52.5 A2.5,2.5 0 0 1 32.5,50 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="30" x2="57" y1="73.6094" y2="73.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="14" x="34" y="66.5332">UI</text></g><!--MD5=[3e81cc6ee7da4fa8b6adc12b329096f6]
+cluster util--><g id="cluster_util"><path d="M769.5,257 L792.5,257 A3.75,3.75 0 0 1 795,259.5 L802,280.6094 L951.5,280.6094 A2.5,2.5 0 0 1 954,283.1094 L954,390.5 A2.5,2.5 0 0 1 951.5,393 L769.5,393 A2.5,2.5 0 0 1 767,390.5 L767,259.5 A2.5,2.5 0 0 1 769.5,257 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="767" x2="802" y1="280.6094" y2="280.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="22" x="771" y="273.5332">util</text></g><!--MD5=[54f51b1fcfdf34d2154f3e53fa298782]
+class Decopy--><g id="elem_Decopy"><rect codeLine="82" fill="#F1F1F1" height="65.6094" id="Decopy" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="80" x="336.5" y="437"/><ellipse cx="351.5" cy="453" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M355.0156,454.3594 Q354.7969,457.7344 353.6563,458.8594 Q352.6563,459.8594 351.2813,459.8594 Q349.9063,459.8594 348.9063,458.8594 Q347.1719,457.125 347.1719,453.4844 Q347.1719,449.2656 349.0313,447.3906 Q350.0469,446.3906 351.3438,446.3906 Q352.7188,446.3906 353.5313,447.1875 Q355,448.6719 354.9375,451.4375 L352.9375,451.4375 Q352.875,449.1563 352.2188,448.5 Q351.9063,448.1719 351.3438,448.1719 Q350.8594,448.1719 350.4688,448.5625 Q349.2188,449.8125 349.2188,453.3594 Q349.2188,456.4375 350.2813,457.4844 Q350.7344,457.9375 351.2813,457.9375 Q351.7656,457.9375 352.2188,457.4844 Q352.8125,456.9063 352.875,454.3594 L355.0156,454.3594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="365.5" y="458.7285">Decopy</text><line style="stroke:#181818;stroke-width:0.5;" x1="337.5" x2="415.5" y1="469" y2="469"/><line style="stroke:#181818;stroke-width:1.0;" x1="337.5" x2="415.5" y1="477" y2="477"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="344.5" y="488.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="39" x="356.5" y="495.5332">usage</text></g><!--MD5=[eef20c47acf0f7364f4642dbd3d4d86f]
+class ContentManager--><g id="elem_ContentManager"><rect codeLine="5" fill="#F1F1F1" height="83.2188" id="ContentManager" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="585" y="453.5"/><ellipse cx="600" cy="469.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M603.5156,470.8594 Q603.2969,474.2344 602.1563,475.3594 Q601.1563,476.3594 599.7813,476.3594 Q598.4063,476.3594 597.4063,475.3594 Q595.6719,473.625 595.6719,469.9844 Q595.6719,465.7656 597.5313,463.8906 Q598.5469,462.8906 599.8438,462.8906 Q601.2188,462.8906 602.0313,463.6875 Q603.5,465.1719 603.4375,467.9375 L601.4375,467.9375 Q601.375,465.6563 600.7188,465 Q600.4063,464.6719 599.8438,464.6719 Q599.3594,464.6719 598.9688,465.0625 Q597.7188,466.3125 597.7188,469.8594 Q597.7188,472.9375 598.7813,473.9844 Q599.2344,474.4375 599.7813,474.4375 Q600.2656,474.4375 600.7188,473.9844 Q601.3125,473.4063 601.375,470.8594 L603.5156,470.8594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="614" y="475.2285">ContentManager</text><line style="stroke:#181818;stroke-width:0.5;" x1="586" x2="722" y1="485.5" y2="485.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="586" x2="722" y1="493.5" y2="493.5"/><ellipse cx="596" cy="507.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="90" x="605" y="512.0332">createContent</text><ellipse cx="596" cy="525.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="40" x="605" y="529.6426">output</text></g><!--MD5=[fd7366e9f96236d9aa60dcc04f2b83e5]
+class Content--><g id="elem_Content"><rect codeLine="11" fill="#F1F1F1" height="100.8281" id="Content" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="101" x="603.5" y="579.5"/><ellipse cx="627.05" cy="595.5" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M624.8781,601.8594 L622.7375,601.8594 L626.2063,588.3906 L627.9406,588.3906 L631.3938,601.8594 L629.2531,601.8594 L628.3313,598.0781 L625.8156,598.0781 L624.8781,601.8594 Z M627.0031,592.3281 L627.1281,592.3281 L626.2844,596.2813 L627.8469,596.2813 L627.0031,592.3281 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="50" x="642.95" y="601.2285">Content</text><line style="stroke:#181818;stroke-width:0.5;" x1="604.5" x2="703.5" y1="611.5" y2="611.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="604.5" x2="703.5" y1="619.5" y2="619.5"/><ellipse cx="614.5" cy="633.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="75" x="623.5" y="638.0332">getColumns</text><ellipse cx="614.5" cy="651.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="54" x="623.5" y="655.6426">getRows</text><ellipse cx="614.5" cy="669.0234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="74" x="623.5" y="673.252">getRowText</text></g><!--MD5=[abcce420e1f59bdadbddcfae9041ca61]
+class TextContent--><g id="elem_TextContent"><rect codeLine="18" fill="#F1F1F1" height="118.4375" id="TextContent" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="806" y="453"/><ellipse cx="821" cy="469" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M824.5156,470.3594 Q824.2969,473.7344 823.1563,474.8594 Q822.1563,475.8594 820.7813,475.8594 Q819.4063,475.8594 818.4063,474.8594 Q816.6719,473.125 816.6719,469.4844 Q816.6719,465.2656 818.5313,463.3906 Q819.5469,462.3906 820.8438,462.3906 Q822.2188,462.3906 823.0313,463.1875 Q824.5,464.6719 824.4375,467.4375 L822.4375,467.4375 Q822.375,465.1563 821.7188,464.5 Q821.4063,464.1719 820.8438,464.1719 Q820.3594,464.1719 819.9688,464.5625 Q818.7188,465.8125 818.7188,469.3594 Q818.7188,472.4375 819.7813,473.4844 Q820.2344,473.9375 820.7813,473.9375 Q821.2656,473.9375 821.7188,473.4844 Q822.3125,472.9063 822.375,470.3594 L824.5156,470.3594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="835" y="474.7285">TextContent</text><line style="stroke:#181818;stroke-width:0.5;" x1="807" x2="914" y1="485" y2="485"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="814" y="496.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="22" x="826" y="503.5332">text</text><line style="stroke:#181818;stroke-width:1.0;" x1="807" x2="914" y1="510.6094" y2="510.6094"/><ellipse cx="817" cy="524.9141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="826" y="529.1426">getColumns</text><ellipse cx="817" cy="542.5234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="826" y="546.752">getRows</text><ellipse cx="817" cy="560.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="826" y="564.3613">getRowText</text></g><!--MD5=[a0336aaa8110b78d9cacadb9d45e00a3]
+class Border--><g id="elem_Border"><rect codeLine="26" fill="#F1F1F1" height="65.6094" id="Border" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="75" x="823" y="606"/><ellipse cx="838" cy="622" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M835.8281,628.3594 L833.6875,628.3594 L837.1563,614.8906 L838.8906,614.8906 L842.3438,628.3594 L840.2031,628.3594 L839.2813,624.5781 L836.7656,624.5781 L835.8281,628.3594 Z M837.9531,618.8281 L838.0781,618.8281 L837.2344,622.7813 L838.7969,622.7813 L837.9531,618.8281 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="43" x="852" y="627.7285">Border</text><line style="stroke:#181818;stroke-width:0.5;" x1="824" x2="897" y1="638" y2="638"/><polygon fill="none" points="834,647.3047,838,651.3047,834,655.3047,830,651.3047" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="843" y="656.5332">content</text><line style="stroke:#181818;stroke-width:0.5;" x1="824" x2="897" y1="663.6094" y2="663.6094"/></g><!--MD5=[a300f8d943aef21fd9e478b7ced889cf]
+class LeftBorder--><g id="elem_LeftBorder"><rect codeLine="30" fill="#F1F1F1" height="100.8281" id="LeftBorder" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="101" x="1011" y="589.5"/><ellipse cx="1026.9" cy="605.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1030.4156,606.8594 Q1030.1969,610.2344 1029.0563,611.3594 Q1028.0563,612.3594 1026.6813,612.3594 Q1025.3063,612.3594 1024.3063,611.3594 Q1022.5719,609.625 1022.5719,605.9844 Q1022.5719,601.7656 1024.4313,599.8906 Q1025.4469,598.8906 1026.7438,598.8906 Q1028.1188,598.8906 1028.9313,599.6875 Q1030.4,601.1719 1030.3375,603.9375 L1028.3375,603.9375 Q1028.275,601.6563 1027.6188,601 Q1027.3063,600.6719 1026.7438,600.6719 Q1026.2594,600.6719 1025.8688,601.0625 Q1024.6188,602.3125 1024.6188,605.8594 Q1024.6188,608.9375 1025.6813,609.9844 Q1026.1344,610.4375 1026.6813,610.4375 Q1027.1656,610.4375 1027.6188,609.9844 Q1028.2125,609.4063 1028.275,606.8594 L1030.4156,606.8594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="1041.1" y="611.2285">LeftBorder</text><line style="stroke:#181818;stroke-width:0.5;" x1="1012" x2="1111" y1="621.5" y2="621.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="1012" x2="1111" y1="629.5" y2="629.5"/><ellipse cx="1022" cy="643.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="1031" y="648.0332">getColumns</text><ellipse cx="1022" cy="661.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="1031" y="665.6426">getRows</text><ellipse cx="1022" cy="679.0234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1031" y="683.252">getRowText</text></g><!--MD5=[2f73b57844b4825f4be3828bf1dbe4d2]
+class UpDownBorder--><g id="elem_UpDownBorder"><rect codeLine="37" fill="#F1F1F1" height="100.8281" id="UpDownBorder" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="998" y="453.5"/><ellipse cx="1013" cy="469.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1016.5156,470.8594 Q1016.2969,474.2344 1015.1563,475.3594 Q1014.1563,476.3594 1012.7813,476.3594 Q1011.4063,476.3594 1010.4063,475.3594 Q1008.6719,473.625 1008.6719,469.9844 Q1008.6719,465.7656 1010.5313,463.8906 Q1011.5469,462.8906 1012.8438,462.8906 Q1014.2188,462.8906 1015.0313,463.6875 Q1016.5,465.1719 1016.4375,467.9375 L1014.4375,467.9375 Q1014.375,465.6563 1013.7188,465 Q1013.4063,464.6719 1012.8438,464.6719 Q1012.3594,464.6719 1011.9688,465.0625 Q1010.7188,466.3125 1010.7188,469.8594 Q1010.7188,472.9375 1011.7813,473.9844 Q1012.2344,474.4375 1012.7813,474.4375 Q1013.2656,474.4375 1013.7188,473.9844 Q1014.3125,473.4063 1014.375,470.8594 L1016.5156,470.8594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1027" y="475.2285">UpDownBorder</text><line style="stroke:#181818;stroke-width:0.5;" x1="999" x2="1124" y1="485.5" y2="485.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="999" x2="1124" y1="493.5" y2="493.5"/><ellipse cx="1009" cy="507.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="1018" y="512.0332">getColumns</text><ellipse cx="1009" cy="525.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="1018" y="529.6426">getRows</text><ellipse cx="1009" cy="543.0234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1018" y="547.252">getRowText</text></g><!--MD5=[ad2b094d75f367b1be648997f5ed2b8d]
+class DecopyInputController--><g id="elem_DecopyInputController"><rect codeLine="47" fill="#F1F1F1" height="100.8281" id="DecopyInputController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="190" x="281.5" y="275.5"/><ellipse cx="304.15" cy="291.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M307.6656,292.8594 Q307.4469,296.2344 306.3063,297.3594 Q305.3063,298.3594 303.9313,298.3594 Q302.5563,298.3594 301.5563,297.3594 Q299.8219,295.625 299.8219,291.9844 Q299.8219,287.7656 301.6813,285.8906 Q302.6969,284.8906 303.9938,284.8906 Q305.3688,284.8906 306.1813,285.6875 Q307.65,287.1719 307.5875,289.9375 L305.5875,289.9375 Q305.525,287.6563 304.8688,287 Q304.5563,286.6719 303.9938,286.6719 Q303.5094,286.6719 303.1188,287.0625 Q301.8688,288.3125 301.8688,291.8594 Q301.8688,294.9375 302.9313,295.9844 Q303.3844,296.4375 303.9313,296.4375 Q304.4156,296.4375 304.8688,295.9844 Q305.4625,295.4063 305.525,292.8594 L307.6656,292.8594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="319.85" y="297.2285">DecopyInputController</text><line style="stroke:#181818;stroke-width:0.5;" x1="282.5" x2="470.5" y1="307.5" y2="307.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="282.5" x2="470.5" y1="315.5" y2="315.5"/><ellipse cx="292.5" cy="329.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="301.5" y="334.0332">displayDecopyInputFrame</text><ellipse cx="292.5" cy="347.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="301.5" y="351.6426">getDecopyInput</text><ellipse cx="292.5" cy="365.0234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="301.5" y="369.252">actionPerformed</text></g><!--MD5=[04935357b5c5a2aec56a7c93da5b843d]
+class ActionListener--><g id="elem_ActionListener"><rect fill="#F1F1F1" height="48" id="ActionListener" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="46" y="302"/><ellipse cx="61" cy="318" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M62.0156,322.875 L62.75,322.875 L62.75,324.8594 L59.2188,324.8594 L59.2188,322.875 L59.9531,322.875 L59.9531,313.375 L59.2188,313.375 L59.2188,311.3906 L62.75,311.3906 L62.75,313.375 L62.0156,313.375 L62.0156,322.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="90" x="75" y="323.7285">ActionListener</text><line style="stroke:#181818;stroke-width:0.5;" x1="47" x2="167" y1="334" y2="334"/><line style="stroke:#181818;stroke-width:0.5;" x1="47" x2="167" y1="342" y2="342"/></g><!--MD5=[f527c587ad0be4273fddddc54740e45f]
+class DecopyInputFrame--><g id="elem_DecopyInputFrame"><rect codeLine="55" fill="#F1F1F1" height="153.6563" id="DecopyInputFrame" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="297" x="228" y="86"/><ellipse cx="312.25" cy="102" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M315.7656,103.3594 Q315.5469,106.7344 314.4063,107.8594 Q313.4063,108.8594 312.0313,108.8594 Q310.6563,108.8594 309.6563,107.8594 Q307.9219,106.125 307.9219,102.4844 Q307.9219,98.2656 309.7813,96.3906 Q310.7969,95.3906 312.0938,95.3906 Q313.4688,95.3906 314.2813,96.1875 Q315.75,97.6719 315.6875,100.4375 L313.6875,100.4375 Q313.625,98.1563 312.9688,97.5 Q312.6563,97.1719 312.0938,97.1719 Q311.6094,97.1719 311.2188,97.5625 Q309.9688,98.8125 309.9688,102.3594 Q309.9688,105.4375 311.0313,106.4844 Q311.4844,106.9375 312.0313,106.9375 Q312.5156,106.9375 312.9688,106.4844 Q313.5625,105.9063 313.625,103.3594 L315.7656,103.3594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="332.75" y="107.7285">DecopyInputFrame</text><line style="stroke:#181818;stroke-width:0.5;" x1="229" x2="524" y1="118" y2="118"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="236" y="129.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="248" y="136.5332">choiceOfPlacement</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="236" y="146.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="248" y="154.1426">textFieldOfCharacter</text><line style="stroke:#181818;stroke-width:1.0;" x1="229" x2="524" y1="161.2188" y2="161.2188"/><ellipse cx="239" cy="175.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="271" x="248" y="179.752">DecopyInputFrame(DecopyInputController)</text><ellipse cx="239" cy="193.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="248" y="197.3613">getDecoStr</text><ellipse cx="239" cy="210.7422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="248" y="214.9707">getPlacement</text><ellipse cx="239" cy="228.3516" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="248" y="232.5801">setActionListener</text></g><!--MD5=[678ba86161b65c93147b2a3a8cf02be2]
+class Frame--><g id="elem_Frame"><rect fill="#F1F1F1" height="48" id="Frame" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="70.5" y="139"/><ellipse cx="85.5" cy="155" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M89.0156,156.3594 Q88.7969,159.7344 87.6563,160.8594 Q86.6563,161.8594 85.2813,161.8594 Q83.9063,161.8594 82.9063,160.8594 Q81.1719,159.125 81.1719,155.4844 Q81.1719,151.2656 83.0313,149.3906 Q84.0469,148.3906 85.3438,148.3906 Q86.7188,148.3906 87.5313,149.1875 Q89,150.6719 88.9375,153.4375 L86.9375,153.4375 Q86.875,151.1563 86.2188,150.5 Q85.9063,150.1719 85.3438,150.1719 Q84.8594,150.1719 84.4688,150.5625 Q83.2188,151.8125 83.2188,155.3594 Q83.2188,158.4375 84.2813,159.4844 Q84.7344,159.9375 85.2813,159.9375 Q85.7656,159.9375 86.2188,159.4844 Q86.8125,158.9063 86.875,156.3594 L89.0156,156.3594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="99.5" y="160.7285">Frame</text><line style="stroke:#181818;stroke-width:0.5;" x1="71.5" x2="142.5" y1="171" y2="171"/><line style="stroke:#181818;stroke-width:0.5;" x1="71.5" x2="142.5" y1="179" y2="179"/></g><!--MD5=[8df13b911cb4cffa73da61a4a6dcc097]
+class DecopyInput--><g id="elem_DecopyInput"><rect codeLine="65" fill="#F1F1F1" height="118.4375" id="DecopyInput" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="111" x="598.5" y="259"/><ellipse cx="613.5" cy="275" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M617.0156,276.3594 Q616.7969,279.7344 615.6563,280.8594 Q614.6563,281.8594 613.2813,281.8594 Q611.9063,281.8594 610.9063,280.8594 Q609.1719,279.125 609.1719,275.4844 Q609.1719,271.2656 611.0313,269.3906 Q612.0469,268.3906 613.3438,268.3906 Q614.7188,268.3906 615.5313,269.1875 Q617,270.6719 616.9375,273.4375 L614.9375,273.4375 Q614.875,271.1563 614.2188,270.5 Q613.9063,270.1719 613.3438,270.1719 Q612.8594,270.1719 612.4688,270.5625 Q611.2188,271.8125 611.2188,275.3594 Q611.2188,278.4375 612.2813,279.4844 Q612.7344,279.9375 613.2813,279.9375 Q613.7656,279.9375 614.2188,279.4844 Q614.8125,278.9063 614.875,276.3594 L617.0156,276.3594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="627.5" y="280.7285">DecopyInput</text><line style="stroke:#181818;stroke-width:0.5;" x1="599.5" x2="708.5" y1="291" y2="291"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="606.5" y="302.3047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="618.5" y="309.5332">placement</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="606.5" y="319.9141"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="618.5" y="327.1426">decoString</text><line style="stroke:#181818;stroke-width:1.0;" x1="599.5" x2="708.5" y1="334.2188" y2="334.2188"/><ellipse cx="609.5" cy="348.5234" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="618.5" y="352.752">setter</text><ellipse cx="609.5" cy="366.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="618.5" y="370.3613">getter</text></g><!--MD5=[9b1791399a60565b15043a83cc5fb320]
+class ClipboardController--><g id="elem_ClipboardController"><rect codeLine="75" fill="#F1F1F1" height="83.2188" id="ClipboardController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="155" x="783" y="293.5"/><ellipse cx="798" cy="309.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M801.5156,310.8594 Q801.2969,314.2344 800.1563,315.3594 Q799.1563,316.3594 797.7813,316.3594 Q796.4063,316.3594 795.4063,315.3594 Q793.6719,313.625 793.6719,309.9844 Q793.6719,305.7656 795.5313,303.8906 Q796.5469,302.8906 797.8438,302.8906 Q799.2188,302.8906 800.0313,303.6875 Q801.5,305.1719 801.4375,307.9375 L799.4375,307.9375 Q799.375,305.6563 798.7188,305 Q798.4063,304.6719 797.8438,304.6719 Q797.3594,304.6719 796.9688,305.0625 Q795.7188,306.3125 795.7188,309.8594 Q795.7188,312.9375 796.7813,313.9844 Q797.2344,314.4375 797.7813,314.4375 Q798.2656,314.4375 798.7188,313.9844 Q799.3125,313.4063 799.375,310.8594 L801.5156,310.8594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="812" y="315.2285">ClipboardController</text><line style="stroke:#181818;stroke-width:0.5;" x1="784" x2="937" y1="325.5" y2="325.5"/><line style="stroke:#181818;stroke-width:1.0;" x1="784" x2="937" y1="333.5" y2="333.5"/><ellipse cx="794" cy="347.8047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="22" x="803" y="352.0332">pull</text><ellipse cx="794" cy="365.4141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="31" x="803" y="369.6426">push</text></g><!--MD5=[db183712e240e0475c45e0937285f55e]
+reverse link Content to TextContent--><g id="link_Content_TextContent"><path d="M722.14,591.26 C749.28,575.6 780.18,557.77 805.79,542.99 " fill="none" id="Content-backto-TextContent" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="725.33,597.5,704.5,601.44,718.33,585.38,725.33,597.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0adc5ee3ebe25376b132b22369f9c4b2]
+reverse link Content to Border--><g id="link_Content_Border"><path d="M724.76,645.23 C757.73,647.92 795.73,648.88 822.95,647.43 " fill="none" id="Content-backto-Border" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="723.74,652.16,704.5,643.28,725.08,638.23,723.74,652.16" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bf817f1b57ec7c93dcc5c3857e4ccc0c]
+link Content to Border--><g id="link_Content_Border"><path codeLine="93" d="M704.5,620.42 C736.46,619.51 777.89,621.33 809.88,625.05 " fill="none" id="Content-to-Border" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="822.95,626.76,817.5189,622.0163,811.0512,625.2051,816.4823,629.9488,822.95,626.76" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7b7e5216770fede1abd991cca0150451]
+reverse link Border to LeftBorder--><g id="link_Border_LeftBorder"><path d="M918.48,639.29 C947.68,639.43 982.91,639.61 1010.97,639.75 " fill="none" id="Border-backto-LeftBorder" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="918.43,646.29,898.46,639.19,918.5,632.29,918.43,646.29" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b8763bd25466382ead113274de7fcae5]
+reverse link Border to UpDownBorder--><g id="link_Border_UpDownBorder"><path d="M916.2,614.19 C931.44,606.49 947.73,597.51 962,588 C976.87,578.09 992,566.24 1005.8,554.6 " fill="none" id="Border-backto-UpDownBorder" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="919.05,620.58,898,623.04,912.93,607.99,919.05,620.58" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fee5c98dbc26ec5bc1b25b976b804fcb]
+reverse link ActionListener to DecopyInputController--><g id="link_ActionListener_DecopyInputController"><path d="M188.06,326 C217.38,326 250.83,326 281.27,326 " fill="none" id="ActionListener-backto-DecopyInputController" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="188.03,333,168.03,326,188.03,319,188.03,333" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7e54d409f73b41c1c3c8054e25374743]
+reverse link Frame to DecopyInputFrame--><g id="link_Frame_DecopyInputFrame"><path d="M163.81,163 C182.8,163 205.01,163 227.76,163 " fill="none" id="Frame-backto-DecopyInputFrame" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="163.52,170,143.52,163,163.52,156,163.52,170" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3ecfefaf801d6da1560d75d86d56b0a0]
+link Decopy to ContentManager--><g id="link_Decopy_ContentManager"><path codeLine="94" d="M416.68,473.56 C459.06,477.4 527.59,483.62 579.96,488.37 " fill="none" id="Decopy-to-ContentManager" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="584.98,488.83,576.3828,484.0249,580.0009,488.3735,575.6524,491.9915,584.98,488.83" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[442e972cdd8f4afd977eaa49a9aaf9df]
+link ContentManager to ClipboardController--><g id="link_ContentManager_ClipboardController"><path codeLine="95" d="M708.2,453.38 C736.96,430.88 772.51,403.06 801.92,380.05 " fill="none" id="ContentManager-to-ClipboardController" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="806.22,376.69,796.6672,379.0868,802.2825,379.7715,801.5977,385.3868,806.22,376.69" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b820f8fefa7a509aa7875f41d30a2bfb]
+link DecopyInputController to ContentManager--><g id="link_DecopyInputController_ContentManager"><path codeLine="96" d="M471.65,354.36 C489.94,361.55 508.52,370.09 525,380 C556.59,399 587.47,426.4 610.98,449.69 " fill="none" id="DecopyInputController-to-ContentManager" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="614.69,453.39,611.1359,444.2048,611.1473,449.8616,605.4905,449.873,614.69,453.39" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9f6cb151b41a76e3acff1c76a13fd142]
+link ContentManager to Content--><g id="link_ContentManager_Content"><path codeLine="97" d="M654,536.53 C654,549.14 654,561.75 654,574.35 " fill="none" id="ContentManager-to-Content" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="654,579.38,658.0257,570.3915,654.0143,574.38,650.0257,570.3686,654,579.38" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6c8a4722589188c3383b9951bfb3cec5]
+link Decopy to DecopyInputController--><g id="link_Decopy_DecopyInputController"><path codeLine="98" d="M376.5,436.81 C376.5,418.48 376.5,400.15 376.5,381.82 " fill="none" id="Decopy-to-DecopyInputController" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="376.5,376.64,372.5,385.64,376.5,381.64,380.5,385.64,376.5,376.64" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[094a5b76c3152573cc6b0abfb3fdc5d3]
+link DecopyInputController to DecopyInputFrame--><g id="link_DecopyInputController_DecopyInputFrame"><path codeLine="99" d="M376.5,275.38 C376.5,265.41 376.5,255.44 376.5,245.47 " fill="none" id="DecopyInputController-to-DecopyInputFrame" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="376.5,240.26,372.5,249.26,376.5,245.26,380.5,249.26,376.5,240.26" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a4ec4e4c8a38a6abc9935fc41c34086c]
+link DecopyInputController to DecopyInput--><g id="link_DecopyInputController_DecopyInput"><path codeLine="100" d="M471.54,323.27 C511.8,322.1 557.63,320.77 593.15,319.74 " fill="none" id="DecopyInputController-to-DecopyInput" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="598.31,319.59,589.1994,315.8487,593.312,319.7328,589.4279,323.8454,598.31,319.59" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1ac07442d870203598ae50365eb5003b]
+@startuml Decopy
+
+' クラス定義
+package Decopy{
+    Package Content {
+        class ContentManager {
+            - -
+            + {static} createContent
+            + {static} output
+        }
+        ' Decoratorパターン ここから - - -
+        abstract class Content {
+            - -
+            + {abstract} getColumns
+            + {abstract} getRows
+            + {abstract} getRowText
+        }
+
+        class TextContent extends Content {
+            - text
+            - -
+            + getColumns
+            + getRows
+            + getRowText
+        }
+
+        abstract class Border extends Content {
+            # content
+        }
+
+        class LeftBorder extends Border {
+            - -
+            + getColumns
+            + getRows
+            + getRowText
+        }
+
+        class UpDownBorder extends Border {
+            - -
+            + getColumns
+            + getRows
+            + getRowText
+        }
+        ' Decoratorパターン ここまで- - -
+    }
+
+    package UI {
+        class DecopyInputController implements ActionListener{
+            ' - decopyInput
+            - -
+            + displayDecopyInputFrame
+            + getDecopyInput
+            + actionPerformed
+        }
+
+        class DecopyInputFrame extends Frame{
+            - choiceOfPlacement
+            - textFieldOfCharacter
+            - -
+            + DecopyInputFrame(DecopyInputController)
+            + getDecoStr
+            + getPlacement
+            + setActionListener
+        }
+
+        class DecopyInput{
+        - placement
+        - decoString
+        - -
+        + setter
+        + getter
+        }
+    }
+
+    package util {
+        class ClipboardController {
+        - -
+        + {static} pull
+        + {static} push
+        }
+    }
+
+    class Decopy {
+        - -
+        ' - {static} isPlacement
+        ' - {static} createContet
+        ' - {static} output
+        - {static} usage
+    }
+}
+
+' クラス間の関係
+left to right direction
+Content - -o Border 
+Decopy ..> ContentManager
+ContentManager ..> ClipboardController
+DecopyInputController .> ContentManager
+ContentManager .> Content
+Decopy .> DecopyInputController
+DecopyInputController .> DecopyInputFrame
+DecopyInputController - -> DecopyInput
+
+
+@enduml
+
+@startuml Decopy
+
+package Decopy{
+    Package Content {
+        class ContentManager {
+            - -
+            + {static} createContent
+            + {static} output
+        }
+        abstract class Content {
+            - -
+            + {abstract} getColumns
+            + {abstract} getRows
+            + {abstract} getRowText
+        }
+
+        class TextContent extends Content {
+            - text
+            - -
+            + getColumns
+            + getRows
+            + getRowText
+        }
+
+        abstract class Border extends Content {
+            # content
+        }
+
+        class LeftBorder extends Border {
+            - -
+            + getColumns
+            + getRows
+            + getRowText
+        }
+
+        class UpDownBorder extends Border {
+            - -
+            + getColumns
+            + getRows
+            + getRowText
+        }
+    }
+
+    package UI {
+        class DecopyInputController implements ActionListener{
+            - -
+            + displayDecopyInputFrame
+            + getDecopyInput
+            + actionPerformed
+        }
+
+        class DecopyInputFrame extends Frame{
+            - choiceOfPlacement
+            - textFieldOfCharacter
+            - -
+            + DecopyInputFrame(DecopyInputController)
+            + getDecoStr
+            + getPlacement
+            + setActionListener
+        }
+
+        class DecopyInput{
+        - placement
+        - decoString
+        - -
+        + setter
+        + getter
+        }
+    }
+
+    package util {
+        class ClipboardController {
+        - -
+        + {static} pull
+        + {static} push
+        }
+    }
+
+    class Decopy {
+        - -
+        - {static} usage
+    }
+}
+
+left to right direction
+Content - -o Border 
+Decopy ..> ContentManager
+ContentManager ..> ClipboardController
+DecopyInputController .> ContentManager
+ContentManager .> Content
+Decopy .> DecopyInputController
+DecopyInputController .> DecopyInputFrame
+DecopyInputController - -> DecopyInput
+
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 02:01:30 JST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>
