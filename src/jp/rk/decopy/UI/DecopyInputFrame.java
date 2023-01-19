@@ -13,7 +13,7 @@ public class DecopyInputFrame extends Frame {
     private Button _OKButton;
     private Button _CancelButton;
     
-    public DecopyInputFrame(){
+    public DecopyInputFrame(DecopyInputController controller){
         super();
         this.setLayout(new GridLayout(3,1));
         Label labelOfPlacement = new Label("装飾位置");
@@ -33,17 +33,33 @@ public class DecopyInputFrame extends Frame {
         _CancelButton = new Button(ButtonID.CANCEL.toString());
         _CancelButton.setSize(50,25);
 
-        Panel p1 = new Panel(new GridLayout(1,2));
-        Panel p2 = new Panel(new GridLayout(1,2));
-        Panel p3 = new Panel(new GridLayout(1,2));
-
+        Panel p1 = new Panel(new GridLayout(3,2));
+        Panel p2 = new Panel(new GridLayout(6,2));
+        Panel p3 = new Panel(new GridLayout(2,2));
+        
+        p1.add(new Label(""));
+        p1.add(new Label(""));
         p1.add(labelOfPlacement);
         p1.add(_choice);
+        p1.add(new Label(""));
+        p1.add(new Label(""));
+        p2.add(new Label(""));
+        p2.add(new Label(""));
+        p2.add(new Label(""));
+        p2.add(new Label(""));
         p2.add(labelOfDecoStr);
         p2.add(_textField);
+        p2.add(new Label(""));
+        p2.add(new Label(""));
+        p2.add(new Label(""));
+        p2.add(new Label(""));
+        p2.add(new Label(""));
+        p2.add(new Label(""));
+        p3.add(new Label(""));
+        p3.add(new Label(""));
         p3.add(_OKButton);
         p3.add(_CancelButton);
-
+        
         this.add(p1);
         this.add(p2);
         this.add(p3);
@@ -55,12 +71,15 @@ public class DecopyInputFrame extends Frame {
         });
     }
 
-    public Placement getPlacement(){
-        return Placement.valueOf(_choice.getSelectedItem());
-    }
-
-    public String getDecoStr(){
-        return _textField.getText();
+    public DecopyInput getDecopyInput(){
+        DecopyInput input = new DecopyInput();
+        input.setPlacement(Placement.valueOf(_choice.getSelectedItem()));
+        if (_textField.getText().equals("")) {
+            input.setDecoStr(">");            
+        } else {
+            input.setDecoStr(_textField.getText());            
+        }
+        return input;
     }
 
     public void setActionListener(ActionListener listener){
