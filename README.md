@@ -62,3 +62,8 @@ java -jar Decopy.jar -p:UpDown -c:=
 - < → -c:\\<  
 - << → -c:\\<\\<  
 - [ → -c:\\[  
+
+
+# 実行環境
+本ツールの動作にはJRE(Java Runtime Environment)※が必要となる  
+※Java 8 以上
