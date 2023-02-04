@@ -11,7 +11,7 @@ public class DecopyInputController implements ActionListener {
 
     public void displayDecopyInputFrame(){
         DecopyInputFrame frame = new DecopyInputFrame();
-        frame.setSize(300, 300);
+        frame.setSize(500, 400);
         frame.setLocationRelativeTo(null);
         frame.setTitle("Decopy");
         frame.setActionListener(this);

@@ -2,12 +2,12 @@ package jp.rk.decopy;
 
 public enum Placement {
     Left,
-    UpDown,
-    Up,
-    LeftRight,
-    Brackets,
+    Ordered,
+    Under,
     Full,
     Right,
-    Under,
-    Ordered
+    Brackets,
+    UpDown,
+    LeftRight,
+    Up
 }
