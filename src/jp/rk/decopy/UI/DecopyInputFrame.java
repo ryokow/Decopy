@@ -48,9 +48,9 @@ public class DecopyInputFrame extends Frame {
         p2.add(labelOfDecoStr);
         p2.add(_textField);
         p2.add(new Label(""));
-        p2.add(new Label("空白はdefault='>'"));
+        p2.add(new Label("空白はdefault('>')"));
         p2.add(new Label(""));
-        p2.add(new Label(""));
+        p2.add(new Label("Orderedは先頭を指定（1,a,アなど)"));
         p3.add(new Label(""));
         p3.add(new Label(""));
         p3.add(_OKButton);

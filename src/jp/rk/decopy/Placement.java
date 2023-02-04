@@ -8,5 +8,6 @@ public enum Placement {
     Brackets,
     Full,
     Right,
-    Under
+    Under,
+    Ordered
 }
