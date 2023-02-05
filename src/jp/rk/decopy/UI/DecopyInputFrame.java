@@ -70,8 +70,12 @@ public class DecopyInputFrame extends Frame {
     public DecopyInput getDecopyInput(){
         DecopyInput input = new DecopyInput();
         input.setPlacement(Placement.valueOf(_choice.getSelectedItem()));
-        if (_textField.getText().equals("")) {
-            input.setDecoStr(">");            
+        if (_textField.getText().equals("")) {      //入力なしのとき
+            if (_choice.getSelectedItem().equals(Placement.Ordered.toString())) {
+                input.setDecoStr("1");  //Orderedの場合は1
+            } else {
+                input.setDecoStr(">");  //それ以外の場合は>
+            }
         } else {
             input.setDecoStr(_textField.getText());            
         }

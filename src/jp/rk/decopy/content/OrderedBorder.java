@@ -9,9 +9,9 @@ public class OrderedBorder extends Border {
         super(content);
         borderStrs = new ArrayList<String>();
         int chint = str.codePointAt(0); 
-        String s = "";
-        if (chint != 9312) {    //9312は①のコードポイント
-            s = ".";            //①が指定された場合は.（ピリオド）をつけない
+        String s = ".";
+        if (chint == "①".codePointAt(0)) {
+            s = "";            //①が指定された場合は.（ピリオド）をつけない
         }
         char ch = 0;
         for (int i = 0; i < content.getRows(); i++) {
