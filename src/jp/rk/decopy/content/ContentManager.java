@@ -31,6 +31,9 @@ public class ContentManager {
             case Under:
                 content = new UnderBorder(new TextContent(ClipboardController.pull()), input.getDecoStr());
                 break;
+            case Ordered:
+                content = new OrderedBorder(new TextContent(ClipboardController.pull()), input.getDecoStr());
+                break;
             case Left:
             default:
                 content = new LeftBorder(new TextContent(ClipboardController.pull()), input.getDecoStr());
