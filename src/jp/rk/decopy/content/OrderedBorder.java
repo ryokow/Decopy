@@ -8,14 +8,20 @@ public class OrderedBorder extends Border {
     public OrderedBorder(Content content, String str) {
         super(content);
         borderStrs = new ArrayList<String>();
-        char ch = str.charAt(0);
+        int chint = str.codePointAt(0); 
+        String s = ".";
+        if (chint == "①".codePointAt(0)) {
+            s = "";            //①が指定された場合は.（ピリオド）をつけない
+        }
+        char ch = 0;
         for (int i = 0; i < content.getRows(); i++) {
-            borderStrs.add(i, Character.toString(ch+i)+". ");
+            ch = (char)(chint+i);
+            borderStrs.add(i, Character.toString(ch) + s + " ");
         }
     }
 
     public int getColumns() {
-        return 1 + content.getColumns();
+        return 3 + content.getColumns();
     }
 
     public int getRows() {
